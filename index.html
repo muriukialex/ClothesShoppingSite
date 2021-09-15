@@ -1,0 +1,124 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./style.css">
+    <title>My Shop</title>
+</head>
+<body>
+    <header>
+        <nav>
+            <ul>
+                <li><a href="#">Luko Shop</a></li>
+                <li><a href="#clothes">Our Clothes</a></li>
+                <li><a href="#contacts">Contacts</a></li>
+            </ul>
+        </nav>
+        <h1 class="banner">Luko Shops</h1>
+    </header>
+
+    <main>
+
+        <section class="order"> 
+            <a href="index.html"><button>Back</button></a>
+            <h3>Order details</h3>
+            <form>
+                <img id="image-selected" src="" width="30%">
+                <label for="customer-name">Name</label>
+                <input type="text" name="user-name" id="customer-name" placeholder="Customer name" minlength="3" maxlength="10" required>
+                <label for="customer-number">Phone number</label>
+                <input type="phone" name="user-tel" id="customer-number" placeholder="Phone number" minlength="10" maxlength="10" required>
+                <label for="customer-email">Email</label>
+                <input type="email" name="user-email" id="customer-email" placeholder="Email">
+                <label for="customer-location">Location</label>
+                <input type="text" name="user-location" id="customer-location" placeholder="Location" list="locations" required>
+                    <datalist id="locations">
+                        <option value="Nairobi">Nairobi</option>
+                        <option value="Mombasa">Mombasa</option>
+                        <option value="Kisumu">Kisumu</option>
+                        <option value="Nakuru"> Nakuru</option>
+                    </datalist>
+                <label for="customer-items-number">Items to buy</label>
+                <input type="number" id="customer-items-number" min="1" step="1" required>
+                <input type="submit" id="submit" value="Submit">
+            </form>
+        </section>
+        <h2 id="clothes">Our Clothes</h2>
+        <section class="stock">
+            <div>
+                <img src="./images/kikoi.png">
+                <h2>Kikoi Classic</h2>
+                <button style="opacity: 1;" value="1">Buy</button>
+            </div>
+            <div>
+                <img src="./images/shoe.png">
+                <h2>Shoes Classic</h2>
+                <button style="opacity: 1;" value="2">Buy</button>
+            </div>
+            <div>
+                <img src="./images/kikoi.png">
+                <h2>Kikoi Kings Classic</h2>
+                <button style="opacity: 1;" value="3">Buy</button>
+            </div>
+            <div>
+                <img src="./images/shoe.png">
+                <h2>Shoe Empress</h2>
+                <button style="opacity: 1;" value="4">Buy</button>
+            </div>
+            <div>
+                <img src="./images/kikoi.png">
+                <h2>Kikoi X-Class</h2>
+                <button style="opacity: 1;" value="5">Buy</button>
+            </div>
+            <div>
+                <img src="./images/shoe.png">
+                <h2>Shoe Poirte</h2>
+                <button style="opacity: 1;" value="6">Buy</button>
+            </div>
+            <div>
+                <img src="./images/kikoi.png">
+                <h2>Kikoi Poirte</h2>
+                <button style="opacity: 1;" value="7">Buy</button>
+            </div>
+        </section>
+
+        <h2 style="text-align: center; font-weight: 200; margin-bottom: 1rem; font-family: 'Times New Roman', Times, serif;" id="guarantee">100% guarantee</h2>
+        <section class="delivery-details">
+            <div>
+                <h3>Quality Products</h3>
+                <img src="./images/caduceus.png">
+            </div>
+            <div>
+                <h3>Speedy delivery</h3>
+                <img src="./images/caduceus.png">
+            </div>
+            <div>
+                <h3>Best customer service</h3>
+                <img src="./images/caduceus.png">
+            </div>
+        </section>
+
+        <section id="best-img">
+            <div>
+                <h2 style="margin-bottom: 1rem; text-decoration: underline;">Best Company of the Year</h2>
+                <img src="./images/trophy5.gif">
+            </div>
+        </section>
+    </main>
+
+    <footer>
+        <nav>
+            <ul>
+                <li id="contacts">Contacts</li>
+                <li>Location</li>
+                <li>Careers</li>
+                <li>Email</li>
+            </ul>
+        </nav>
+    </footer>
+
+    <script src="./app.js"></script>
+</body>
+</html>
