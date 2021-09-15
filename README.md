@@ -8,7 +8,7 @@
 
 ## Motivation for building this project
   - To solidify my understanding of the Document Object Model components and JavaScript concepts
-  - To experience what building an ecommerce application entails... Belive me building a full fledging e-commerce application is a lot of work
+  - To experience what building an e-commerce application entails... Believe me building a full fledged e-commerce application is a lot of work
   - To understand responsive design practices
   
 ### What this shopping site can do
