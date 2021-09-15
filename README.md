@@ -1,4 +1,4 @@
-# ClothesShoppingSite
+# Clothes Shopping Site
 
 ![Shopping site](https://mystifying-kalam-b9ce7e.netlify.app/shop.gif)
 
