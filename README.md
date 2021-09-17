@@ -16,12 +16,12 @@
   * Take customer orders ie. customer name, customer phone number e.t.c and save the information in an object
 
 ### How to use the site
-  * Navigate to [here](https://alexshop0.netlify.app)
+  * Navigate to [here](https://deploy-preview-1--agitated-jepsen-6465fd.netlify.app/)
   * Pick an item and fill in the details to complete your order
   * You will forever be a happy customer 😁
 
 
-## Find the project [here](https://alexshop0.netlify.app)
+## Find the project [here](https://deploy-preview-1--agitated-jepsen-6465fd.netlify.app/)
 
 
 ## Technologies used
